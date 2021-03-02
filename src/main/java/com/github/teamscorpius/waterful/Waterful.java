@@ -11,7 +11,7 @@ public class Waterful implements ModInitializer {
     public static Logger LOGGER = LogManager.getLogger();
 
     public static final String MOD_ID = "waterful";
-    public static final String MOD_NAME = "Waterful Fabric";
+    public static final String MOD_NAME = "Waterful";
 
     @Override
     public void onInitialize() {
