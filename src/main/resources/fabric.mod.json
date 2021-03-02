@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "waterful",
+  "version": "${version}",
+  "name": "Waterful Fabric",
+  "description": "?",
+  "authors": [
+    "Team Scorpius"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/waterful/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.teamscorpius.waterful.Waterful"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "waterful.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*"
+  }
+}
